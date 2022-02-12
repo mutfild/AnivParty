@@ -32,7 +32,7 @@ function TestCode(code){
   else if(code == "ciseaux"){
     reponse.innerHTML = "Non mais cherchez dans la pièce bande de cons";
   }
-  else if(code == CodeDate){
+  else if(code == 43178){
     reponse.innerHTML = "Code Bon Chakaux QI = 256";
     window.open('Code3.html', '_blank').focus();
   }
