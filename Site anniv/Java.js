@@ -33,7 +33,10 @@ function TestCode(code){
     reponse.innerHTML = "Non mais cherchez dans la pièce bande de cons";
   }
 
-  
+  if(code == 43178){
+    reponse.innerHTML = "Code Bon Chakaux QI = 256";
+    window.open('Code3.html', '_blank').focus();
+  }
 
   else if(code == 1991){
     reponse.innerHTML = "Le cadenas connard";
