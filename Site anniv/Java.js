@@ -34,7 +34,7 @@ function TestCode(code){
   }
   else if(code == 43178){
     reponse.innerHTML = "Code Bon Chakaux QI = 256";
-    window.open('Code3.html', '_blank').focus();
+    window.open('Code4.html', '_blank').focus();
   }
   else if(code == 1991){
     reponse.innerHTML = "Le cadenas connard";
