@@ -1,0 +1,7 @@
+body{
+    height: 100vh;
+    background-image: url('images/Ciseaux.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
