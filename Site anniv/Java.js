@@ -3,7 +3,7 @@ var reponse = document.getElementById('reponse');
 
 var Code1 = "eline";
 var dateNvlAn = "31/12/2021";
-
+var CodeDate = 43178;
 var ph = "SUCE";
 
 var Fin = "jai baisé ta femme";
@@ -32,9 +32,10 @@ function TestCode(code){
   else if(code == "ciseaux"){
     reponse.innerHTML = "Non mais cherchez dans la pièce bande de cons";
   }
-
-  
-
+  else if(code == CodeDate){
+    reponse.innerHTML = "Code Bon Chakaux QI = 256";
+    window.open('Code3.html', '_blank').focus();
+  }
   else if(code == 1991){
     reponse.innerHTML = "Le cadenas connard";
   }
